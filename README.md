@@ -7,7 +7,7 @@ Disadavantage: Only ~2fps
 
 Prerequisites:
 
-``sudo apt install apache2 php5``
+``sudo apt install apache2``
 
 move files to /var/www/html/ and make folder writable for rpidostream.sh
 
