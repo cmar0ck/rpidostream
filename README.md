@@ -2,8 +2,8 @@
 
 Prerequisites:
 
-# sudo apt install apache2 php5
+```sudo apt install apache2 php5```
 
 move files to /var/www/html/ and make folder writable for rpidostream.sh
 
-# sh rpidostream.sh
+```sh rpidostream.sh```
