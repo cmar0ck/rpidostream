@@ -1,4 +1,5 @@
-# rpidostream (aka RaPidoStream aka Raspberry Pi Pseudo Stream)
+# rpidostream
+(aka RaPidoStream aka Raspberry Pi Pseudo Stream)
 
 Prerequisites:
 
