@@ -1,0 +1,36 @@
+<DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+
+		img {
+			border: 0;
+			width: 100vw;
+		}
+	</style>
+	<link rel="icon" type="image/png" href="https://www.raspberrypi.org/app/themes/mind-control/images/favicon.png" />
+	<title>RaPidoStream</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+	</script>
+</head>
+
+<body>
+
+	<img id="pic" src="streampic.jpg" alt="stream">
+
+</body>
+
+<script>
+	setInterval(function() {
+	    var image = document.getElementById("pic");
+	    image.src = "streampic.jpg?rand=" + Math.random();
+	}, 500);
+</script>
+
+</html>
