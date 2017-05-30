@@ -9,6 +9,6 @@ Prerequisites:
 
 ``sudo apt install apache2``
 
-move files to /var/www/html/ and make folder writable for rpidostream.sh
+move files to /var/www/html/ and make folder writable for rpidostream.sh, then run
 
 ``sh rpidostream.sh``
